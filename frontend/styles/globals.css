@@ -1,0 +1,164 @@
+/* ---------- GLOBAL RESET ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- BODY / BACKGROUND ---------- */
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  background: linear-gradient(
+    135deg,
+    #eef2ff 0%,
+    #f3f4f6 50%,
+    #f8fafc 100%
+  );
+  background-attachment: fixed;
+
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* ---------- CONTAINER ---------- */
+.container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* ---------- PAGE HEADER ---------- */
+.container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.container p {
+  color: #4b5563;
+}
+
+/* ---------- CARD ---------- */
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.75rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(4px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- FORM ---------- */
+label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #374151;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  background: #fafafa;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #2563eb;
+  background: #ffffff;
+}
+
+/* ---------- BUTTON ---------- */
+button {
+  padding: 0.75rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* ---------- HEADINGS ---------- */
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* ---------- LISTS ---------- */
+ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+/* ---------- DASHBOARD GRID ---------- */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- NEWS LIST ---------- */
+.news-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.8rem 0;
+}
+
+.news-item a {
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
+
+.news-meta {
+  font-size: 0.85rem;
+}

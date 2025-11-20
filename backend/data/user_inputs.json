@@ -1,0 +1,58 @@
+[
+  {
+    "type": "skill-gap",
+    "target_role": "Backend Developer",
+    "current_skills": [
+      "Java",
+      "SQL",
+      "Git"
+    ],
+    "timestamp": "2025-11-20T15:25:53.610855Z"
+  },
+  {
+    "type": "roadmap",
+    "target_role": "Backend Developer",
+    "timestamp": "2025-11-20T15:25:53.621250Z"
+  },
+  {
+    "type": "skill-gap",
+    "target_role": "Frontend Developer",
+    "current_skills": [
+      "HTML",
+      "CSS"
+    ],
+    "timestamp": "2025-11-20T16:22:11.537627Z"
+  },
+  {
+    "type": "roadmap",
+    "target_role": "Frontend Developer",
+    "timestamp": "2025-11-20T16:22:11.631517Z"
+  },
+  {
+    "type": "skill-gap",
+    "target_role": "Data Analyst",
+    "current_skills": [
+      "Excel"
+    ],
+    "timestamp": "2025-11-20T16:23:10.260453Z"
+  },
+  {
+    "type": "roadmap",
+    "target_role": "Data Analyst",
+    "timestamp": "2025-11-20T16:23:10.272302Z"
+  },
+  {
+    "type": "skill-gap",
+    "target_role": "Data Analyst",
+    "current_skills": [
+      "Excel",
+      "SQL"
+    ],
+    "timestamp": "2025-11-20T16:30:13.748555Z"
+  },
+  {
+    "type": "roadmap",
+    "target_role": "Data Analyst",
+    "timestamp": "2025-11-20T16:30:13.770715Z"
+  }
+]
