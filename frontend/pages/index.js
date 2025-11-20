@@ -10,7 +10,9 @@ export default function Home() {
   const [errorMsg, setErrorMsg] = useState("");
 
   // For local dev – change this to your Render URL after deployment
-  const BACKEND_BASE_URL = "http://localhost:8000";
+  const BACKEND_BASE_URL =
+  process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
+
 
   const handleAnalyze = async (e) => {
     e.preventDefault();
