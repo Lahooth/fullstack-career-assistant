@@ -113,7 +113,108 @@ CAREER_ROLES: Dict[str, Dict[str, Any]] = {
             },
         ],
     },
+    "DevOps Engineer": {
+        "required_skills": ["Linux", "Git", "Docker", "Kubernetes", "CI/CD", "AWS"],
+        "recommendations": [
+            "Get comfortable with Linux basics and shell scripting.",
+            "Containerize sample apps with Docker and deploy using a simple CI/CD pipeline.",
+        ],
+        "learning_order": ["Linux", "Git", "Docker", "CI/CD", "Kubernetes", "AWS"],
+        "roadmap": [
+            {
+                "phase": "Phase 1 (1–2 months)",
+                "focus": "Foundations",
+                "items": ["Linux basics", "Git workflows", "Networking basics"],
+            },
+            {
+                "phase": "Phase 2 (2 months)",
+                "focus": "Automation & Containers",
+                "items": ["Docker", "CI/CD pipelines", "Monitoring basics"],
+            },
+            {
+                "phase": "Phase 3 (1–2 months)",
+                "focus": "Cloud & Scale",
+                "items": ["Kubernetes basics", "Deploying on AWS", "Infra as Code overview"],
+            },
+        ],
+    },
+    "Data Engineer": {
+        "required_skills": ["SQL", "Python", "ETL", "Apache Spark", "Data Warehousing", "Airflow"],
+        "recommendations": [
+            "Strengthen SQL for analytics and transformations.",
+            "Build a simple ETL pipeline using Python and a scheduler like Airflow.",
+        ],
+        "learning_order": ["SQL", "Python", "ETL", "Data Warehousing", "Spark", "Airflow"],
+        "roadmap": [
+            {
+                "phase": "Phase 1 (1–2 months)",
+                "focus": "Core Skills",
+                "items": ["Advanced SQL", "Python scripting", "Basic ETL concepts"],
+            },
+            {
+                "phase": "Phase 2 (2 months)",
+                "focus": "Pipelines",
+                "items": ["Batch ETL jobs", "Data warehouse modeling", "Intro to Spark"],
+            },
+            {
+                "phase": "Phase 3 (1–2 months)",
+                "focus": "Orchestration & Scale",
+                "items": ["Airflow basics", "Monitoring pipelines", "Optimizing queries"],
+            },
+        ],
+    },
+    "Cybersecurity Analyst": {
+        "required_skills": ["Networking", "Linux", "Security Tools", "SIEM", "Incident Response", "Python"],
+        "recommendations": [
+            "Start with networking and Linux fundamentals.",
+            "Practice using a SIEM tool and analysing basic alerts.",
+        ],
+        "learning_order": ["Networking", "Linux", "Security Tools", "SIEM", "Incident Response"],
+        "roadmap": [
+            {
+                "phase": "Phase 1 (1–2 months)",
+                "focus": "Foundations",
+                "items": ["Networking basics", "Linux commands", "Security principles"],
+            },
+            {
+                "phase": "Phase 2 (2 months)",
+                "focus": "Monitoring & Tools",
+                "items": ["Using SIEM tools", "Log analysis", "Common attack patterns"],
+            },
+            {
+                "phase": "Phase 3 (1–2 months)",
+                "focus": "Response",
+                "items": ["Incident response workflow", "Playbooks", "Basic scripting with Python"],
+            },
+        ],
+    },
+    "ML Engineer": {
+        "required_skills": ["Python", "NumPy", "Pandas", "Scikit-learn", "TensorFlow", "Statistics"],
+        "recommendations": [
+            "Strengthen Python data stack before diving into deep learning.",
+            "Implement small ML models end-to-end, from data loading to evaluation.",
+        ],
+        "learning_order": ["Python", "NumPy & Pandas", "Scikit-learn", "TensorFlow"],
+        "roadmap": [
+            {
+                "phase": "Phase 1 (1–2 months)",
+                "focus": "Data & Math",
+                "items": ["Python for data", "NumPy", "Pandas", "Basic statistics"],
+            },
+            {
+                "phase": "Phase 2 (2 months)",
+                "focus": "Classical ML",
+                "items": ["Regression", "Classification", "Model evaluation"],
+            },
+            {
+                "phase": "Phase 3 (1–2 months)",
+                "focus": "Deep Learning Intro",
+                "items": ["Neural network basics", "Simple TensorFlow/Keras models"],
+            },
+        ],
+    },
 }
+
 
 
 # -------------------------------------------------
