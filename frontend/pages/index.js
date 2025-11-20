@@ -14,6 +14,7 @@ export default function Home() {
   process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
 
 
+
   const handleAnalyze = async (e) => {
     e.preventDefault();
     setErrorMsg("");
